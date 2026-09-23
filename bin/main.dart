@@ -1,5 +1,8 @@
-import 'package:oop3/oop3.dart' as oop3;
+import 'package:oop3/triangle.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${oop3.calculate()}!');
+void main() {
+  Triangle triangle1 = Triangle.feet(2, 3);
+   
+  print(triangle1.width);
+  print(triangle1.height);
 }
